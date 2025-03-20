@@ -1,48 +1,49 @@
 ﻿#include <iostream>
 
+#define SIZE 8
+
 using namespace std;
 
-int Find(int list[], int left, int right)
+void binary_search(int list[], int key)
 {
-    if (left == right)
-    {
-        return list[left];
-    }
-    else
-    {
-        int leftMax = Find(list, left, (left + right) / 2);
-        int rightMax = Find(list, (left + right) / 2 + 1, right);
+    int left = 0;
+    int right = SIZE - 1;
 
-        if (leftMax < rightMax)
+    while (left <= right)
+    {
+        int pivot = (left + right) / 2;
+
+        if (list[pivot] == key)
         {
-            return rightMax;
+            cout << "Key Found : " << list[pivot] << endl;
+
+            return;
+        }          
+        else if (list[pivot] > key)
+        {
+            right = pivot - 1;
         }
         else
         {
-            return leftMax;
+            left = pivot + 1;
         }
     }
+
+    cout << "Not Key Found" << endl;
 }
+
 
 int main()
 {
-#pragma region 분할 정복
-    // 주어진 2개 이상의 부분으로 문제를 나눈 뒤 각 부분
-    // 문제에 대한 답을 재귀 호출을 이용하여 계산한 다음, 그
-    // 답으로부터 전체 문제의 답을 계산해내는 알고리즘입니다.
+#pragma region 이진 탐색
+    // 탐색 범위를 반으로 나누어 찾는 값을 포함하는 범위를
+    // 좁혀나가는 방식으로 동작하는 알고리즘입니다.
 
-    // 분할 (Divide) : 주어진 문제를 두 개 혹은 그 이상의 형식으로 나눈다.
+    int list[SIZE] = { 5,6,11,13,27,55,66,99 };
 
-    // 정복 (Conquer) : 나누어진 문제를 재귀적으로 해결해서 나누어진 문제를
-    // 더 이상 나누어서 문제가 필요없을 때까지 계속 분할합니다.
-    
-    // 통합 (Combine) : 나누어서 해결한 문제들을 통합해서 원래 문제의 해답을 생성합니다.
+    binary_search(list, 100);
 
-    int list[] = { 20,15,99,1 };
 
-    int size = sizeof(list) / sizeof(int);
-
-    cout << Find(list, 0, size - 1);
 #pragma endregion
 
 
