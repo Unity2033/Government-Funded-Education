@@ -1,77 +1,69 @@
 ﻿#include <iostream>
+#include <vector>
+
+#define SIZE 8
 
 using namespace std;
 
-const int & Greedy(int n)
+class Node
 {
-    int count = 0;
-
-    while (n >= 10)
+private:
+    bool visited[SIZE];
+    vector<int> adjacencyList[SIZE];
+public:
+    Node()
     {
-        if (n >= 1000)
+        for (int i = 0; i < SIZE; i++)
         {
-            n -= 1000;
-            count++;
-        }
-        else if (n >= 500)
-        {
-            n -= 500;
-            count++;
-        }
-        else if (n >= 100)
-        {
-            n -= 100;
-            count++;
-        }
-        else if (n >= 50)
-        {
-            n -= 50;
-            count++;
-        }
-        else if (n >= 10)
-        {
-            n -= 10;
-            count++;
+            visited[i] = false;
         }
     }
 
-    return count;
-}
+    void insert(int i, int j)
+    {
+        adjacencyList[i].push_back(j);
+        adjacencyList[j].push_back(i);
+    }
+
+};
 
 int main()
 {
-#pragma region 탐욕법
-    // 최적의 해를 구하는 데에 사용되는 근사적인 방법으로 여러 경우 중 
-    // 하나를 검색해야 할 때마다 그 순간에 최적이라고 생각되는 것을 선택해
-    // 나가는 방식으로 진행하여 최종적인 해답을 구하는 알고리즘입니다.
-   
-    // 1. 탐욕 선택 속성
-    // 각 단계에서 '최적의 선택'을 했을 때 전체 문제에 대한
-    // 최적의 해를 구할 수 있는 경우입니다.
+#pragma region 깊이 우선 탐색 (Depth First Search)
+    // root 노드에서부터 다음 분기로 넘어가기 전에
+    // 해당 분기를 완벽하게 탐색하는 방법입니다.
 
-    // 2. 최적 부분 구조
-    // 전체 문제의 최적의 해가 '부분 문제의 최적의 해로 구성'될
-    // 수 있는 경우입니다.
+    // 깊이 우선 탐색은 스택을 활용합니다.
+    
+    // 1. 시작 노드를 스택에 넣고 방문 처리를 합니다.
+  
+    // 2. 스택의 최상단 노드에 방문하지 않은 인접 노드가
+    //    있으면 그 노드를 스택에 넣고 방문 처리합니다.  
 
-    // 탐욕 알고리즘으로 문제를 해결하는 방버
+    // 3. 방문하지 않은 인접 노드가 없으면 스택에서 최상단 
+    //    에 있는 노드를 꺼냅니다.
 
-    // 1. 선택 절차 (Selection Procedure) 
-    // 현재 상태에서의 최적의 해답을 선택합니다.
+    // 4. 더 이상 2번의 과정을 수행할 수 없을 때까지 반복합니다.
 
-    // 2. 적절성 검사 (Feasibility Check)
-    // 선택된 해가 문제의 조건을 만족하는지 검사합니다.
+    Node node;
 
-    // 3. 해답 검사 (Solution Check)
-    // 원래의 문제가 해결되었는지 검사하고, 해결되지 
-    // 않았다면 선택 절차로 돌아가 위의 과정을 반복합니다.
+    node.insert(1, 2);
+    node.insert(1, 3);
 
-    int money = 1370;
+    node.insert(2, 3);
+    node.insert(2, 4);
+    node.insert(2, 5);
 
-    cout << Greedy(money) << endl;
+    node.insert(3, 6);
+    node.insert(3, 7);
+
+    node.insert(4, 5);
+    node.insert(6, 7);
+
+
 
 #pragma endregion
-
-
+    
     return 0;
 }
 
