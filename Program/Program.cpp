@@ -1,70 +1,81 @@
 ﻿#include <iostream>
+#include <vector>
 
-#define SIZE 6
-
-int parent[SIZE];
+#define SIZE 8
 
 using namespace std;
 
-// Root Node를 찾는 함수
-int find(int x)
+class Kruskal
 {
-    // 배열의 인덱스와 값이 같다면 Root Node 발견
-    if (x == parent[x])
+private:
+    class Edge
     {
-        return x;
-    }
-    else
+    private :
+        int vertexX;
+        int vertexY;
+        int weight;
+    public:
+        Edge(int vertexX, int vertexY, int weight)
+        {
+            this->vertexX = vertexX;
+            this->vertexY = vertexY;
+            this->weight = weight;
+        }
+    };
+    
+    int cost;
+    int parent[SIZE];
+
+    vector<Edge> nodeList;
+
+public :
+    Kruskal()
     {
-        // 부모 노드의 번호를 전달하면서, Root Node를 찾을 때까지 
-        // 재귀 호출을 반복합니다.
-        return parent[x] = find(parent[x]);
+        cost = 0;
+
+        for (int i = 0; i < SIZE; i++)
+        {
+            parent[i] = i;
+        }
     }
-}
 
-void Union(int x, int y)
-{
-    x = find(x);
-    y = find(y);
-
-    if (x == y) { return; }
-
-    if (x < y)
+    void insert(int vertexX, int vertexY, int weight)
     {
-        parent[y] = x;
+        Edge edge(vertexX, vertexY, weight);
+
+        nodeList.push_back(edge);
     }
-    else
-    {
-        parent[x] = y;
-    }
-}
-
-
-
-
-
+};
 
 int main()
 {
-#pragma region 유니온 파인드
-    // 여러 노드가 존재할 때 어떤 노드가 다른 노드와
-    // 연결되어 있는 지 확인하는 알고리즘입니다.
+#pragma region 최소 신장 트리
+    // 그래프의 모든 정점을 포함하면서 사이클이 존재하지 않는 
+    // 부분 그래프로, 그래프의 모든 정점을 최소 비용으로 연결하는 트리입니다.
 
-    // Union : 특정한 두 개의 노드를 같은 집합으로 합치는 연산입니다.
+    // 그래프의 정점의 수가 n개일 때, 간선의 수는 n-1개 입니다.
 
-    // Find : 특정한 노드가 어느 집합에 있는 지 확인하는 연산입니다. 
+    Kruskal kruskal;
 
-    for (int i = 0; i < SIZE; i++)
-    {
-        list[i] = i;
-    }
+    kruskal.insert(1, 7, 10);
+    kruskal.insert(4, 7, 14);
 
+    kruskal.insert(1, 4, 30);
+    kruskal.insert(2, 4, 25);
 
+    kruskal.insert(1, 2, 64);
+    kruskal.insert(1, 5, 19);
+
+    kruskal.insert(5, 7, 73);
+    kruskal.insert(2, 5, 61);
+
+    kruskal.insert(5, 3, 22);
+    kruskal.insert(5, 6, 48);
+    kruskal.insert(3, 6, 36);
 
 #pragma endregion
 
 
- 
     return 0;
 }
 
