@@ -1,4 +1,5 @@
 ﻿#include <iostream>
+#include <algorithm>
 #include <vector>
 
 #define SIZE 8
@@ -21,13 +22,21 @@ private:
             this->vertexY = vertexY;
             this->weight = weight;
         }
+
+        const int & VertexX() { return vertexX; }
+        const int & VertexY() { return vertexY; }
+        const int & Weight() { return weight; }
+
+        const bool & operator < (const Edge & edge)
+        {
+            return weight < edge.weight;
+        }
     };
     
     int cost;
     int parent[SIZE];
 
     vector<Edge> nodeList;
-
 public :
     Kruskal()
     {
@@ -39,11 +48,66 @@ public :
         }
     }
 
+    // Root Node를 찾는 함수
+    int find(int x)
+    {
+        // 배열의 인덱스와 값이 같다면 Root Node 발견
+        if (x == parent[x])
+        {
+            return x;
+        }
+        else
+        {
+            // 부모 노드의 번호를 전달하면서, Root Node를 찾을 때까지 
+            // 재귀 호출을 반복합니다.
+            return parent[x] = find(parent[x]);
+        }
+    }
+
+    void Union(int x, int y)
+    {
+        x = find(x);
+        y = find(y);
+
+        if (x == y) { return; }
+
+        if (x < y)
+        {
+            parent[y] = x;
+        }
+        else
+        {
+            parent[x] = y;
+        }
+    }
+
+    bool same(int x, int y)
+    {
+        return find(x) == find(y);
+    }
+
     void insert(int vertexX, int vertexY, int weight)
     {
         Edge edge(vertexX, vertexY, weight);
 
         nodeList.push_back(edge);
+    }
+
+    void calculate()
+    {
+        sort(nodeList.begin(), nodeList.end());
+
+        for (int i = 0; i < nodeList.size(); i++)
+        {
+            if (same(nodeList[i].VertexX(), nodeList[i].VertexY()) == false)
+            {
+                cost += nodeList[i].Weight();
+
+                Union(nodeList[i].VertexX(), nodeList[i].VertexY());
+            }
+        }
+
+        cout << "Cost : " << cost << endl;
     }
 };
 
@@ -73,10 +137,8 @@ int main()
     kruskal.insert(5, 6, 48);
     kruskal.insert(3, 6, 36);
 
+    kruskal.calculate();
+
 #pragma endregion
-
-
     return 0;
 }
-
-
