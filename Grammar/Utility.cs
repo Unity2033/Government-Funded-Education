@@ -4,8 +4,20 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Program
+namespace Grammar
 {
+    public struct Vector2
+    {
+        public int x; 
+        public int y;
+    
+        public Vector2(int x, int y) 
+        {
+            this.x = x;
+            this.y = y;
+        }
+    }
+
     internal class Utility
     {
         public void Pause()
@@ -25,6 +37,11 @@ namespace Program
         public int Absolute(in int value)
         {
             return value < 0 ? -value : value; 
+        }
+
+        public void Magnitude(Vector2 vector2, out float length)
+        {
+            length = (float)Math.Sqrt(vector2.x * vector2.x + vector2.y * vector2.y);
         }
     }
 }

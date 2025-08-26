@@ -1,42 +1,69 @@
-﻿namespace Program
+﻿using System.Reflection;
+
+namespace Program
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            #region 박싱 
-            // 값 형식의 데이터를 참조 형식으로 변환하는 과정입니다.
+            #region 컬렉션
 
-            // int value = 100;
+            #region List
+
+            // List<int> list = new List<int>();
             // 
-            // object generic = value;
+            // list.Capacity = 10;
             // 
-            // Console.WriteLine("value : " + value);
-            // Console.WriteLine("generic : " + generic);
+            // list.Add(10); // 10       [0]
+            // list.Add(20); // 10 20    [0] [1]
+            // list.Add(30); // 10 20 30 [0] [1] [2]
+            // list.Add(40); // 30
+            // list.Add(50); // 30
+            // 
+            // list.Remove(40);
+            // 
+            // list.Insert(3, 75);// 10 20 30 75 [0] [1] [2] [3]
+            // 
+            // foreach (int element in list)
+            // {
+            //     Console.WriteLine(element);
+            // }
+
             #endregion
 
-            #region 언박싱
-            // 참조 형식의 데이터를 값 형식으로 변환하는 과정입니다.
+            #region Dictionary
 
-            // int box = (int)generic;
-            // 
-            // Console.WriteLine("box : " + box);
+            Dictionary<string, int> dictionary = new Dictionary<string, int>();
+
+            int money = 0;
+
+            dictionary.Add("Doran’s Blade",450);
+            dictionary.Add("B.F. Sword", 1300);
+            dictionary.Add("Randuin’s Omen", 2700);
+
+            foreach(var element in dictionary)
+            {
+                Console.WriteLine("KEY : " + $"{element.Key}");
+                Console.WriteLine("VALUE : " + $"{element.Value}");
+            }
+
+            string key = "Doran’s Blade";
+
+            if (dictionary.TryGetValue(key, out money))
+            {
+                money = dictionary[key];
+            }
+            else
+            {
+                dictionary.Add(key, 3000);
+            }
+
+            Console.WriteLine("Money : " + money);
+
             #endregion
 
-            Utility utility = new Utility() ;
+            #endregion
 
-            utility.Pause();
-
-            int next = 10;
-            int previous = 0;
-
-            int distance = -4;
-
-            utility.Swap(ref next, ref previous);
-
-            Console.WriteLine("next 변수의 값 : " + next);
-            Console.WriteLine("previous 변수의 값 : " + previous);
-            Console.WriteLine("Absolute의 값 : " + utility.Absolute(in distance));
         }
     }
 }
