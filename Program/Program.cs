@@ -6,61 +6,30 @@ namespace Program
     {
         static void Main(string[] args)
         {
-            #region 컬렉션
+            #region 추상 클래스
+            // 클래스를 생성할 수는 없지만, 다른 클래스가 상속받아 구체적인 기능을 만들 수 
+            // 있도록 설계되어 있는 클래스입니다.
 
-            #region List
+            Terrain terrain = new Forest();
 
-            // List<int> list = new List<int>();
-            // 
-            // list.Capacity = 10;
-            // 
-            // list.Add(10); // 10       [0]
-            // list.Add(20); // 10 20    [0] [1]
-            // list.Add(30); // 10 20 30 [0] [1] [2]
-            // list.Add(40); // 30
-            // list.Add(50); // 30
-            // 
-            // list.Remove(40);
-            // 
-            // list.Insert(3, 75);// 10 20 30 75 [0] [1] [2] [3]
-            // 
-            // foreach (int element in list)
-            // {
-            //     Console.WriteLine(element);
-            // }
+            Console.WriteLine("Width : " + terrain.Width);
+            Console.WriteLine("Height : " + terrain.Height);
 
-            #endregion
+            terrain.Describe();
 
-            #region Dictionary
+            terrain = new Desert();
 
-            Dictionary<string, int> dictionary = new Dictionary<string, int>();
+            Console.WriteLine("Width : " + terrain.Width);
+            Console.WriteLine("Height : " + terrain.Height);
 
-            int money = 0;
+            terrain.Describe();
 
-            dictionary.Add("Doran’s Blade",450);
-            dictionary.Add("B.F. Sword", 1300);
-            dictionary.Add("Randuin’s Omen", 2700);
+            terrain = new Swamp();
 
-            foreach(var element in dictionary)
-            {
-                Console.WriteLine("KEY : " + $"{element.Key}");
-                Console.WriteLine("VALUE : " + $"{element.Value}");
-            }
+            Console.WriteLine("Width : " + terrain.Width);
+            Console.WriteLine("Height : " + terrain.Height);
 
-            string key = "Doran’s Blade";
-
-            if (dictionary.TryGetValue(key, out money))
-            {
-                money = dictionary[key];
-            }
-            else
-            {
-                dictionary.Add(key, 3000);
-            }
-
-            Console.WriteLine("Money : " + money);
-
-            #endregion
+            terrain.Describe();
 
             #endregion
 
