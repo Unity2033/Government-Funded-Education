@@ -4,36 +4,29 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Program
+namespace Interface
 {
-    internal class Forest : Terrain, ICoverable, ITraversable
+    internal class Swamp : Terrain, ITraversable
     {
-        public Forest() 
+        public Swamp() 
         {
-            width = 75;
-            height = 20;
+            width = 30;
+            height = 5;
         }
 
         public override void Activate()
         {
-            Cover();
-
             Console.WriteLine("Traverse : " + Traverse());
-        }
-
-        public void Cover()
-        {
-            Console.WriteLine("hide behind a tree");
         }
 
         public override void Describe()
         {
-            Console.WriteLine("Dense tree coverag");
+            Console.WriteLine("Often flooded or saturated with water.");
         }
 
         public bool Traverse()
         {
-            return false;
+            return true;
         }
     }
 }

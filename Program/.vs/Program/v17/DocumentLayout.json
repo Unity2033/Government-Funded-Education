@@ -3,32 +3,51 @@
   "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Program\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C738F83A-2651-4177-A90A-34231E084778}|Program.csproj|c:\\users\\administrator\\desktop\\government-funded-education\\program\\itraversable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C738F83A-2651-4177-A90A-34231E084778}|Program.csproj|solutionrelative:itraversable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C738F83A-2651-4177-A90A-34231E084778}|Program.csproj|c:\\users\\administrator\\desktop\\government-funded-education\\program\\desert.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C738F83A-2651-4177-A90A-34231E084778}|Program.csproj|solutionrelative:desert.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C738F83A-2651-4177-A90A-34231E084778}|Program.csproj|c:\\users\\administrator\\desktop\\government-funded-education\\program\\forest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C738F83A-2651-4177-A90A-34231E084778}|Program.csproj|solutionrelative:forest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C738F83A-2651-4177-A90A-34231E084778}|Program.csproj|c:\\users\\administrator\\desktop\\government-funded-education\\program\\swamp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C738F83A-2651-4177-A90A-34231E084778}|Program.csproj|solutionrelative:swamp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C738F83A-2651-4177-A90A-34231E084778}|Program.csproj|c:\\users\\administrator\\desktop\\government-funded-education\\program\\terrain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C738F83A-2651-4177-A90A-34231E084778}|Program.csproj|solutionrelative:terrain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C738F83A-2651-4177-A90A-34231E084778}|Program.csproj|c:\\users\\administrator\\desktop\\government-funded-education\\program\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C738F83A-2651-4177-A90A-34231E084778}|Program.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C738F83A-2651-4177-A90A-34231E084778}|Program.csproj|c:\\users\\administrator\\desktop\\government-funded-education\\program\\icoverable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C738F83A-2651-4177-A90A-34231E084778}|Program.csproj|solutionrelative:icoverable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C738F83A-2651-4177-A90A-34231E084778}|Program.csproj|c:\\users\\administrator\\desktop\\government-funded-education\\program\\enchant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C738F83A-2651-4177-A90A-34231E084778}|Program.csproj|solutionrelative:enchant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C738F83A-2651-4177-A90A-34231E084778}|Program.csproj|c:\\users\\administrator\\desktop\\government-funded-education\\program\\reward.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C738F83A-2651-4177-A90A-34231E084778}|Program.csproj|solutionrelative:reward.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C738F83A-2651-4177-A90A-34231E084778}|Program.csproj|c:\\users\\administrator\\desktop\\government-funded-education\\program\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C738F83A-2651-4177-A90A-34231E084778}|Program.csproj|solutionrelative:item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C738F83A-2651-4177-A90A-34231E084778}|Program.csproj|c:\\users\\administrator\\desktop\\government-funded-education\\program\\quest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C738F83A-2651-4177-A90A-34231E084778}|Program.csproj|solutionrelative:quest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6D450E9-93BB-4DF5-9017-0A515F6C7A69}|..\\Interface\\Interface.csproj|c:\\users\\administrator\\desktop\\government-funded-education\\interface\\terrain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6D450E9-93BB-4DF5-9017-0A515F6C7A69}|..\\Interface\\Interface.csproj|c:\\users\\administrator\\desktop\\government-funded-education\\interface\\forest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6D450E9-93BB-4DF5-9017-0A515F6C7A69}|..\\Interface\\Interface.csproj|c:\\users\\administrator\\desktop\\government-funded-education\\interface\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6D450E9-93BB-4DF5-9017-0A515F6C7A69}|..\\Interface\\Interface.csproj|c:\\users\\administrator\\desktop\\government-funded-education\\interface\\desert.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6D450E9-93BB-4DF5-9017-0A515F6C7A69}|..\\Interface\\Interface.csproj|c:\\users\\administrator\\desktop\\government-funded-education\\interface\\icoverable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C5317F4-5E30-4D84-B03C-1E0F1685C257}|..\\Grammar\\Grammar.csproj|c:\\users\\administrator\\desktop\\government-funded-education\\grammar\\utility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C5317F4-5E30-4D84-B03C-1E0F1685C257}|..\\Grammar\\Grammar.csproj|c:\\users\\administrator\\desktop\\government-funded-education\\grammar\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6D450E9-93BB-4DF5-9017-0A515F6C7A69}|..\\Interface\\Interface.csproj|c:\\users\\administrator\\desktop\\government-funded-education\\interface\\swamp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6D450E9-93BB-4DF5-9017-0A515F6C7A69}|..\\Interface\\Interface.csproj|c:\\users\\administrator\\desktop\\government-funded-education\\interface\\itraversable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C738F83A-2651-4177-A90A-34231E084778}|Program.csproj|c:\\users\\administrator\\desktop\\government-funded-education\\program\\program.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -36,12 +55,6 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{03B5E765-9255-4918-834B-294F392F7C66}|..\\Collection\\Collection.csproj|c:\\users\\administrator\\desktop\\government-funded-education\\collection\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C5317F4-5E30-4D84-B03C-1E0F1685C257}|..\\Grammar\\Grammar.csproj|c:\\users\\administrator\\desktop\\government-funded-education\\grammar\\utility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C5317F4-5E30-4D84-B03C-1E0F1685C257}|..\\Grammar\\Grammar.csproj|c:\\users\\administrator\\desktop\\government-funded-education\\grammar\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -51,7 +64,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 17,
           "Children": [
             {
               "$type": "Bookmark",
@@ -75,85 +88,111 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ITraversable.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Program\\ITraversable.cs",
-              "RelativeDocumentMoniker": "ITraversable.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Program\\ITraversable.cs",
-              "RelativeToolTip": "ITraversable.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvwMAAAASAAAA",
+              "DocumentIndex": 1,
+              "Title": "Enchant.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Program\\Enchant.cs",
+              "RelativeDocumentMoniker": "Enchant.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Program\\Enchant.cs",
+              "RelativeToolTip": "Enchant.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABAAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-27T06:33:13.565Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ICoverable.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Program\\ICoverable.cs",
-              "RelativeDocumentMoniker": "ICoverable.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Program\\ICoverable.cs",
-              "RelativeToolTip": "ICoverable.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-27T06:03:19.3Z",
+              "WhenOpened": "2025-08-28T06:24:45.124Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Swamp.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Program\\Swamp.cs",
-              "RelativeDocumentMoniker": "Swamp.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Program\\Swamp.cs",
-              "RelativeToolTip": "Swamp.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAuwAgAAAATAAAA",
+              "Title": "Item.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Program\\Item.cs",
+              "RelativeDocumentMoniker": "Item.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Program\\Item.cs",
+              "RelativeToolTip": "Item.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAywBEAAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-27T05:09:55.922Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Desert.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Program\\Desert.cs",
-              "RelativeDocumentMoniker": "Desert.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Program\\Desert.cs",
-              "RelativeToolTip": "Desert.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAuwBIAAAA6AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-27T05:08:28.767Z",
+              "WhenOpened": "2025-08-28T06:20:22.802Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Forest.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Program\\Forest.cs",
-              "RelativeDocumentMoniker": "Forest.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Program\\Forest.cs",
-              "RelativeToolTip": "Forest.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAA5wBUAAAAJAAAA",
+              "Title": "Reward.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Program\\Reward.cs",
+              "RelativeDocumentMoniker": "Reward.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Program\\Reward.cs",
+              "RelativeToolTip": "Reward.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAADwvwsAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-27T05:06:16.606Z",
+              "WhenOpened": "2025-08-28T05:35:31.802Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Terrain.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Program\\Terrain.cs",
-              "RelativeDocumentMoniker": "Terrain.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Program\\Terrain.cs",
-              "RelativeToolTip": "Terrain.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA8AAAA0AAAA",
+              "Title": "Quest.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Program\\Quest.cs",
+              "RelativeDocumentMoniker": "Quest.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Program\\Quest.cs",
+              "RelativeToolTip": "Quest.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAywB8AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-27T04:28:28.316Z",
+              "WhenOpened": "2025-08-28T05:01:31.445Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "Desert.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Interface\\Desert.cs",
+              "RelativeDocumentMoniker": "..\\Interface\\Desert.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Interface\\Desert.cs",
+              "RelativeToolTip": "..\\Interface\\Desert.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T04:08:50.653Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Forest.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Interface\\Forest.cs",
+              "RelativeDocumentMoniker": "..\\Interface\\Forest.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Interface\\Forest.cs",
+              "RelativeToolTip": "..\\Interface\\Forest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwYAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T04:08:49.914Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ICoverable.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Interface\\ICoverable.cs",
+              "RelativeDocumentMoniker": "..\\Interface\\ICoverable.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Interface\\ICoverable.cs",
+              "RelativeToolTip": "..\\Interface\\ICoverable.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwYAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T04:08:49.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Interface\\Program.cs",
+              "RelativeDocumentMoniker": "..\\Interface\\Program.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Interface\\Program.cs",
+              "RelativeToolTip": "..\\Interface\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T04:08:21.393Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Collection\\Program.cs",
               "RelativeDocumentMoniker": "..\\Collection\\Program.cs",
@@ -161,12 +200,11 @@
               "RelativeToolTip": "..\\Collection\\Program.cs",
               "ViewState": "AQIAAAcAAAAAAAAAAAA0wF8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-27T04:20:08.785Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-27T04:20:08.785Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Utility.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Grammar\\Utility.cs",
               "RelativeDocumentMoniker": "..\\Grammar\\Utility.cs",
@@ -179,7 +217,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Grammar\\Program.cs",
               "RelativeDocumentMoniker": "..\\Grammar\\Program.cs",
@@ -192,7 +230,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 14,
               "Title": "Program.csproj",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Program\\Program.csproj",
               "RelativeDocumentMoniker": "Program.csproj",
@@ -200,20 +238,58 @@
               "RelativeToolTip": "Program.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-08-25T04:15:01.661Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-25T04:15:01.661Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Program\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Program\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAUwAwAAAATAAAA",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAuwCEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-25T04:14:22.461Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ITraversable.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Interface\\ITraversable.cs",
+              "RelativeDocumentMoniker": "..\\Interface\\ITraversable.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Interface\\ITraversable.cs",
+              "RelativeToolTip": "..\\Interface\\ITraversable.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwYAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T04:08:51.388Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Swamp.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Interface\\Swamp.cs",
+              "RelativeDocumentMoniker": "..\\Interface\\Swamp.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Interface\\Swamp.cs",
+              "RelativeToolTip": "..\\Interface\\Swamp.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwYAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T04:08:55.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Terrain.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Interface\\Terrain.cs",
+              "RelativeDocumentMoniker": "..\\Interface\\Terrain.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Interface\\Terrain.cs",
+              "RelativeToolTip": "..\\Interface\\Terrain.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAABCwBMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T04:08:57.722Z",
               "EditorCaption": ""
             }
           ]
