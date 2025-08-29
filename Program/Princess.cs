@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Program
 {
-    internal class Enchant
+    internal class Princess : IMovable
     {
-        public void Enhance(IEnhanceable item)
+        public void Move()
         {
-            item.Upgrade();
+            Console.WriteLine("Princess Move");
         }
     }
 }

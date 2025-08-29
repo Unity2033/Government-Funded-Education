@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Program
 {
-    internal class Enchant
+    internal class Vendor : ITradable
     {
-        public void Enhance(IEnhanceable item)
+        public void Deal()
         {
-            item.Upgrade();
+            Console.WriteLine("Shop Open");
         }
     }
 }

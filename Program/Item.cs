@@ -8,16 +8,11 @@ namespace Program
 {
     internal class Item
     {
-        private string name;
-        private int strength;
-        private int dexterity;
-        private int intelligence;
+        protected string name;
+        protected int strength;
+        protected int dexterity;
+        protected int intelligence;
         
-        public string Name { get { return name; } }
-        public int Strength { set { strength = value; } }
-        public int Dexterity { set { dexterity = value; } }
-        public int Intelligence { set { intelligence = value; } }
-
         public Item(string name, int strength, int dexterity, int intelligence)
         {
             this.name = name;

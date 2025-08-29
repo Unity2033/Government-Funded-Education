@@ -26,13 +26,15 @@ namespace Program
             #region 개방 폐쇄 원칙
             // 소프트웨어의 구성 요소는 확장에는 열려 있어야 하고, 변경에는 닫혀 있어야 합니다.
 
-            Enchant enchant = new Enchant();
+            // Enchant enchant = new Enchant();
+            // 
+            // enchant.Enhance(new Sword());
+            // enchant.Enhance(new Necklace());
+            #endregion
 
-            enchant.Enhance(new Item("Sword", 10, 5, 0));
-
-            enchant.Enhance(new Item("Necklace", 1, 1, 10));
-
-            enchant.Enhance(new Item("Shoes", 0, 20, 0));
+            #region 인터페이스 분리 원칙
+            // 객체가 자신이 사용하지 않는 함수에 의존하지 않도록
+            // 설계되어야 하는 원칙입니다.
 
 
             #endregion
