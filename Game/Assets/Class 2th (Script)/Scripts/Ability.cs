@@ -1,8 +1,11 @@
 using UnityEngine;
 
+[System.Serializable]
 public class Ability
 {
-    public int strength = 40;
+    [SerializeField] int strength = 40;
+
+    public int Strength { get { return strength; } }
 
     public Ability()
     {

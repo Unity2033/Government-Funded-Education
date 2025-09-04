@@ -308,6 +308,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Robot
       objectReference: {fileID: 0}
+    - target: {fileID: 5628416301743256676, guid: 5aacff0177ac1584c877e294368ae60f, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -454,6 +458,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ee1d40bff75b6664582d750009bd3086, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ability:
+    strength: 40
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
