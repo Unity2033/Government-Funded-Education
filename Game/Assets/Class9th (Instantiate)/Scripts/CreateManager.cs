@@ -1,17 +1,20 @@
+using System.Collections;
 using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 
 public class CreateManager : MonoBehaviour
 {
     [SerializeField] int count;
-    [SerializeField] float time;
+    [SerializeField] int index;
+
     [SerializeField] GameObject prefab;
     [SerializeField] List<GameObject> unitList;
 
     void Start()
     {
         Initialize();
+
+        StartCoroutine(Coroutine());
     }
 
     void Initialize()
@@ -28,17 +31,43 @@ public class CreateManager : MonoBehaviour
         }
     }
 
-    private void Update()
+    bool ExamineActive()
     {
-        time += Time.deltaTime;
-
-        if(time >= 5.0f)
+        for(int i = 0; i < unitList.Count; i++)
         {
-            Debug.Log("Call");
+            if (unitList[i].activeSelf == false)
+            {
+                return false;
+            }
+        }
 
-            time = 0.0f;
+        return true;
+    }
+
+    IEnumerator Coroutine()
+    {
+        while (true)
+        {
+            yield return new WaitForSeconds(5.0f);
+
+            index = Random.Range(0, unitList.Count);
+
+            while(unitList[index].activeSelf)
+            {
+                index = (index +1) % unitList.Count; 
+            }
+
+            unitList[index].SetActive(true);
+
+            Debug.Log(index);
+
+            if(ExamineActive())
+            {
+                yield break;
+            }
         }
     }
+
 
 
 }
