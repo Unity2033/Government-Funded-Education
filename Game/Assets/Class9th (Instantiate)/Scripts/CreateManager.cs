@@ -59,8 +59,6 @@ public class CreateManager : MonoBehaviour
 
             unitList[index].SetActive(true);
 
-            Debug.Log(index);
-
             if(ExamineActive())
             {
                 yield break;
