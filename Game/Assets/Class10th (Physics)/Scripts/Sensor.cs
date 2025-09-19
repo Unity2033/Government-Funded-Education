@@ -4,7 +4,10 @@ public class Sensor : MonoBehaviour
 {
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log("Trigger Enter");
+        if (other.gameObject.CompareTag("Authorize"))
+        {
+            other.gameObject.GetComponent<Control>().Soar();
+        }
     }
 
     private void OnTriggerStay(Collider other)
@@ -14,6 +17,9 @@ public class Sensor : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
-        Debug.Log("Trigger Exit");
+        if (other.gameObject.CompareTag("Authorize"))
+        {
+            other.gameObject.GetComponent<Control>().Revert();
+        }
     }
 }
