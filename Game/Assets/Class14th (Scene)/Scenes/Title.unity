@@ -1105,6 +1105,7 @@ GameObject:
   - component: {fileID: 2076123927}
   - component: {fileID: 2076123926}
   - component: {fileID: 2076123925}
+  - component: {fileID: 2076123928}
   m_Layer: 5
   m_Name: Start Button
   m_TagString: Untagged
@@ -1175,19 +1176,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2076123926}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 950639678}
-        m_TargetAssemblyTypeName: SceneryManager, Assembly-CSharp
-        m_MethodName: Coroutine
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 1
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &2076123926
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1226,6 +1215,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2076123923}
   m_CullTransparentMesh: 1
+--- !u!114 &2076123928
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2076123923}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1bd985ab9bd97744ebcda25819b94a91, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  button: {fileID: 2076123925}
+  sceneryManager: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
