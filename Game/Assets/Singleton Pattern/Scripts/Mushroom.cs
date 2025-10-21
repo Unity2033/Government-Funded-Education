@@ -6,6 +6,8 @@ public class Mushroom : MonoBehaviour
 
     void Update()
     {
+        if (GameManager.Instance.State == false) return;
+
         transform.Rotate(0, speed * Time.deltaTime, 0);
     }
 }
