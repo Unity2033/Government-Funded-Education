@@ -11,8 +11,9 @@ GameObject:
   - component: {fileID: 4187149645365952347}
   - component: {fileID: 987526361096630526}
   - component: {fileID: 3049098265316246580}
+  - component: {fileID: 2185200859341011952}
   m_Layer: 0
-  m_Name: Bullet_ShotGun_B
+  m_Name: AA-12 Bullet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -86,3 +87,17 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &2185200859341011952
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3553461909585978849}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e3bd927be0531940b79743baf95aa24, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 1
+  destroyTime: 1.5
