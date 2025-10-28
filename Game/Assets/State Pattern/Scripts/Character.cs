@@ -1,41 +1,34 @@
+using UnityEditor;
 using UnityEngine;
 
 public class Character : MonoBehaviour
 {
-    [SerializeField] int x;
-    [SerializeField] int z;
-
-    [SerializeField] Animator animator;
+    [SerializeField] State currentState;
+    
+    public Animator animator;
 
     private void Awake()
     {
         animator = GetComponent<Animator>();
     }
 
+    private void Start()
+    {
+        currentState = new Idle();
+    }
+
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Space))
-        {
-            PickUp();
-        }
-
-        Walk();
+        currentState.Update(this); 
     }
 
-    public void Walk()
+    public void SetState(State state)
     {
-        x = (int)Input.GetAxisRaw("Horizontal");
+        currentState.Exit(this);
 
-        animator.SetInteger("X", x);
+        this.currentState = state;
+
+        currentState.Enter(this);
     }
 
-    public void PickUp()
-    {
-        if (animator.GetCurrentAnimatorStateInfo(0).IsName("Pick Up") && animator.IsInTransition(0) || animator.GetCurrentAnimatorStateInfo(0).normalizedTime <= 1.0f)
-        {
-            return;
-        }
-
-        animator.SetTrigger("Pick Up");
-    }
 }
