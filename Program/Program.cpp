@@ -4,24 +4,30 @@ using namespace std;
 
 int main()
 {
-#pragma region 유클리드 호제법
-	// 2개의 자연수 또는 정식의 최대 공약수를 구하는 방식으로
-	// 두 수가 서로 상대방 수를 나누어서 원하는 수를 얻어내는 알고리즘입니다.
+#pragma region 에라토스테네스의 체
 
-	int x = 2304;
-	int y = 1440;
+	int n = 50;
 
-	int result = 0;
-
-	for (int i = 1; i <= x && i <= y; i++)
+	for (int i = 2; i <= n; i++)
 	{
-		if (x % i == 0 && y % i == 0)
+		bool flag = true;
+
+		for (int j = 2; j < i; j++)
 		{
-			result = i;
+			if (i % j == 0)
+			{
+				flag = false;
+
+				break;
+			}
+		}
+
+		if (flag)
+		{
+			cout << i << " ";
 		}
 	}
 
-	cout << "Greatest Common Divisor : " << result << endl;
 
 #pragma endregion
 
