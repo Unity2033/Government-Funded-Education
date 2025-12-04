@@ -7,6 +7,9 @@
       "RelativeMoniker": "D:0:0:{94392424-01CC-4A8E-ACD7-C67C19C9DF6C}|Program.vcxproj|solutionrelative:Program.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{238B17DF-7C57-4D7F-B213-DF516473DDA0}|..\\Class19th (Shell Sort)\\Class19th (Shell Sort).vcxproj|C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Class19th (Shell Sort)\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C30CCD44-50CE-4ECC-BD16-F86C0DE27EF9}|..\\Class18th (Dijkstra)\\Class18th (Dijkstra).vcxproj|C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Class18th (Dijkstra)\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
@@ -68,7 +71,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 23,
+          "SelectedChildIndex": 24,
           "Children": [
             {
               "$type": "Bookmark",
@@ -94,18 +97,30 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Source.cpp",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Class19th (Shell Sort)\\Source.cpp",
+              "RelativeDocumentMoniker": "..\\Class19th (Shell Sort)\\Source.cpp",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Class19th (Shell Sort)\\Source.cpp",
+              "RelativeToolTip": "..\\Class19th (Shell Sort)\\Source.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADQAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-04T10:40:39.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Source.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Class18th (Dijkstra)\\Source.cpp",
               "RelativeDocumentMoniker": "..\\Class18th (Dijkstra)\\Source.cpp",
               "ToolTip": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Class18th (Dijkstra)\\Source.cpp",
               "RelativeToolTip": "..\\Class18th (Dijkstra)\\Source.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAGoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-12-03T10:38:35.854Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-03T10:38:35.854Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Source.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Class17th (Topology Sort)\\Source.cpp",
               "RelativeDocumentMoniker": "..\\Class17th (Topology Sort)\\Source.cpp",
@@ -117,7 +132,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Source.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Class16th (Breadth First Search)\\Source.cpp",
               "RelativeDocumentMoniker": "..\\Class16th (Breadth First Search)\\Source.cpp",
@@ -129,7 +144,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Source.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Class15th (Depth First Search)\\Source.cpp",
               "RelativeDocumentMoniker": "..\\Class15th (Depth First Search)\\Source.cpp",
@@ -141,7 +156,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Source.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Class14th (Greedy)\\Source.cpp",
               "RelativeDocumentMoniker": "..\\Class14th (Greedy)\\Source.cpp",
@@ -153,7 +168,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Source.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Class13th (Dynamic Programming)\\Source.cpp",
               "RelativeDocumentMoniker": "..\\Class13th (Dynamic Programming)\\Source.cpp",
@@ -165,7 +180,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Source.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Class12th (Merge Sort)\\Source.cpp",
               "RelativeDocumentMoniker": "..\\Class12th (Merge Sort)\\Source.cpp",
@@ -177,7 +192,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Source.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Class11th (Quick Sort)\\Source.cpp",
               "RelativeDocumentMoniker": "..\\Class11th (Quick Sort)\\Source.cpp",
@@ -189,7 +204,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Source.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Class10th (Binary Search)\\Source.cpp",
               "RelativeDocumentMoniker": "..\\Class10th (Binary Search)\\Source.cpp",
@@ -201,7 +216,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Source.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Class9th (Divide and Conquer)\\Source.cpp",
               "RelativeDocumentMoniker": "..\\Class9th (Divide and Conquer)\\Source.cpp",
@@ -213,7 +228,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Source.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Class8th (Count Sort)\\Source.cpp",
               "RelativeDocumentMoniker": "..\\Class8th (Count Sort)\\Source.cpp",
@@ -225,7 +240,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "Source.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Class7th (Sieve of Eratosthenes)\\Source.cpp",
               "RelativeDocumentMoniker": "..\\Class7th (Sieve of Eratosthenes)\\Source.cpp",
@@ -237,7 +252,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "Source.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Class6th (Euclidean)\\Source.cpp",
               "RelativeDocumentMoniker": "..\\Class6th (Euclidean)\\Source.cpp",
@@ -249,7 +264,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "Source.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Class5th (Insert Sort)\\Source.cpp",
               "RelativeDocumentMoniker": "..\\Class5th (Insert Sort)\\Source.cpp",
@@ -261,7 +276,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "Source.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Class4th (Select Sort)\\Source.cpp",
               "RelativeDocumentMoniker": "..\\Class4th (Select Sort)\\Source.cpp",
@@ -273,7 +288,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "Source.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Class3th (Bubble Sort)\\Source.cpp",
               "RelativeDocumentMoniker": "..\\Class3th (Bubble Sort)\\Source.cpp",
@@ -285,7 +300,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "Source.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Class2th (Brute Force)\\Source.cpp",
               "RelativeDocumentMoniker": "..\\Class2th (Brute Force)\\Source.cpp",
@@ -297,7 +312,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "Source.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Class1th (Asymptotic Notation)\\Source.cpp",
               "RelativeDocumentMoniker": "..\\..\\Class1th (Asymptotic Notation)\\Source.cpp",
@@ -315,7 +330,7 @@
               "RelativeDocumentMoniker": "Program.cpp",
               "ToolTip": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Program\\Program.cpp",
               "RelativeToolTip": "Program.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAKAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-11-12T09:12:44.26Z",
               "EditorCaption": ""
